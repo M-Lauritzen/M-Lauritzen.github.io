@@ -51,6 +51,12 @@ width: 752px;
 padding: 48px 0px 8px;
 border-collapse: collapse;
 }
+.navcenter
+{
+margin: auto;
+width: 752px;
+border-collapse: collapse;
+}
 .box
 {
 width: 100%;
