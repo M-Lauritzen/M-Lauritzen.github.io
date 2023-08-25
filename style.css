@@ -11,22 +11,48 @@ line-height: 1.7;
 }
 
 /* Navigation bar */
-ul.nav
+.nav
 {
 position: fixed;
 top: 0;
 left: 0;
 width: 100%;
-list-style-type: none;
-margin: 0;
-padding: 0;
 overflow: hidden;
 background-color: #222;
 z-index: 1;
 }
+.navcenter ul
+{
+    list-style-type: none;
+    margin: 0;
+padding: 0;
+}
+.navcenter
+{
+margin: auto;
+width: 770px;
+height: inherit;
+border-collapse: collapse;
+}
 .navcenter li
 {
 float: left;
+}
+.navcenter li.name
+{
+font-size: 1.5rem;
+font-weight: 300;
+float: right;
+color: white;
+text-align: center;
+padding: 5px 16px;
+vertical-align: middle;
+height: inherit;
+margin: auto;
+}
+.navcenter li.name b
+{
+    font-size: 1.5rem;
 }
 .navcenter a
 {
@@ -56,12 +82,6 @@ background-color: #4CAF50;
 margin: auto;
 width: 770px;
 padding: 40px 0px 8px;
-border-collapse: collapse;
-}
-.navcenter
-{
-margin: auto;
-width: 770px;
 border-collapse: collapse;
 }
 .box
